@@ -1,0 +1,216 @@
+<style type="text/css">
+    /* Startseite */
+
+    #stage .s360-sechserBox-1 h2,
+    #stage .s360-sechserBox-2 h2,
+    #stage .s360-sechserBox-3 h2 {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+
+    #stage .s360-sechserBox-1 h3,
+    #stage .s360-sechserBox-2 h3,
+    #stage .s360-sechserBox-3 h3 {
+        font-size: 14px;
+    }
+
+    #stage .s360-sechserBox-1 .inner,
+    #stage .s360-sechserBox-2 .inner,
+    #stage .s360-sechserBox-3 .inner {
+        top: 75% !important;
+    }
+
+    #stage .overlay {
+        background-color: rgba(0, 50, 100, 0.6);
+        padding: 20px;
+        margin: 0 -20px;
+    }
+
+    /* HT-Connect 3x2 Box Hauptkategorien angepasste Höhe */
+    .s360-viewbox-triple .s360-viewbox-content {
+        min-height: 0 !important;
+        margin-bottom: 20px !important;
+    }
+
+    .s360-viererbox__inner {
+        min-height: 400px !important;
+    }
+
+    .no-text-decoration:focus {
+        outline: none !important;
+    }
+
+    .p-category-box {
+        line-height: 1.4 !important;
+    }
+
+    /* Buttons */
+    .cta-standard.v1 {
+        background-color: rgb(0, 136, 195) !important;
+        margin-top: 20px;
+    }
+
+    .cta-standard.v1:hover {
+        background-color: rgb(0, 50, 100) !important;
+    }
+
+    /* Button Klasse überschrieben für korrektes Einfärben beim Hovern */
+    .s360-viererbox__button {
+        width: 180px !important;
+    }
+
+    .s360-viererbox__button:hover {
+        color: rgb(255, 255, 255) !important;
+        text-decoration: none !important;
+    }
+
+    .parting-line {
+        padding: 0;
+    }
+
+    .parting-line hr {
+        margin: 0 auto;
+    }
+
+    #service .container {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    #service .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #service .s360-viewbox-quadro .s360-viewbox-image-container {
+        display: none;
+        height: 0;
+    }
+
+    #service .s360-viewbox-quadro .s360-viewbox-content {
+        padding: 10px;
+        min-height: 175px !important;
+    }
+
+    /* Footer Wrapper */
+    .s360-footer-boxes-wrapper {
+        background-color: rgb(226, 237, 249) !important;
+        color: rgb(0, 50, 100) !important;
+    }
+
+    /* Footer Links */
+    .s360-footer-boxes-link {
+        color: rgb(0, 50, 100) !important;
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 900px) {
+        #stage [class*="s360-sechserBox-"]>a {
+            height: 150px !important;
+        }
+
+        #service .s360-viewbox-quadro .s360-viewbox-content {
+            min-height: 215px !important;
+        }
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 768px) {
+        #stage [class*="s360-sechserBox-"]>a {
+            height: 150px !important;
+        }
+    }
+
+    @media screen and (max-width: 479px) {
+
+        #stage .s360-sechserBox-1 h2,
+        #stage .s360-sechserBox-2 h2,
+        #stage .s360-sechserBox-3 h2 {
+            font-size: 18px;
+        }
+
+        #stage [class*="s360-sechserBox-"]>a {
+            height: 90px !important;
+        }
+
+        #stage .row [class*="col-"] {
+            padding-bottom: 0;
+        }
+
+        #stage .row:nth-child(2) [class*="col-"] {
+            margin-top: 0;
+        }
+
+        #stage .overlay {
+            padding: 10px 20px 0;
+        }
+
+        #stage .overlay h2 {
+            padding-bottom: 10px;
+        }
+
+        #stage .overlay h3 {
+            display: none;
+        }
+    }
+
+    /* Small desktop css */
+
+    @media (min-device-width: 1025px) and (max-width: 1449px) {
+
+        /* Inner Container für Overlay */
+        .inner {
+            top: 50% !important;
+        }
+
+        /* HT-Connect 3x2 Box Hauptkategorien angepasste Höhe */
+        .s360-viewbox-triple .s360-viewbox-content {
+            min-height: 220px !important;
+        }
+
+    }
+
+    /* Tablet landscape css */
+
+    @media (min-device-width: 769px) and (max-width: 1024px) {
+
+        /* Inner Container für Overlay */
+        .inner {
+            top: 120% !important;
+        }
+
+        /* HT-Connect 3x2 Box Hauptkategorien angepasste Höhe */
+        .s360-viewbox-triple .s360-viewbox-content {
+            min-height: 300px !important;
+
+        }
+    }
+
+    /* Tablet portrait css */
+
+    @media screen and (min-device-width: 481px) and (max-width: 768px) {
+
+        /* Inner Container für Overlay */
+        .inner {
+            top: 50% !important;
+        }
+
+        /* HT-Connect 3x2 Box Hauptkategorien angepasste Höhe */
+        .s360-viewbox-triple .s360-viewbox-content {
+            min-height: 270px !important;
+        }
+    }
+
+    /* Smartphone css */
+
+    @media only screen and (max-device-width: 480px) and (min-device-width: 319px) {
+
+        /* Inner Container für Overlay */
+        .inner {
+            top: 75% !important;
+        }
+
+        /* HT-Connect 3x2 Box Hauptkategorien angepasste Höhe */
+        .s360-viewbox-triple .s360-viewbox-content {
+            min-height: 140px !important;
+        }
+    }
+</style>
