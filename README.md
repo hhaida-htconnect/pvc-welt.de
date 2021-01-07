@@ -23,6 +23,8 @@ Online-Shop für pvc-welt.de
 - Eigene Tabelle unter https://www.pvc-welt.de/PVC-U-Bundbuchsen-Flansche-und-Zubehoer
 - RoHS Richtlinien Klemmfittings fertig gestellt für https://www.pvc-welt.de/PP-Klemmfittings-PE-Rohre-und-Zubehoer und https://www.pvc-welt.de/Messing-Klemmfittings-DVGW-fuer-PE-Rohr
 
-### ToDo:
+## pvc-welt.de-v-1.0.1 - 2021-01-07
 
-- Umbau und Übernahme aller neuen Funktionen, Features und Styles von ht-connect.de
+### Changelog:
+
+- Farbänderung auf #999 und neue Position des Cookiebot Buttons unter html-plain-stylesheets.html
