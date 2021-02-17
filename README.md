@@ -29,5 +29,5 @@ Online-Shop für pvc-welt.de
 
 - Farbänderung auf #999 und neue Position des Cookiebot Buttons unter html-plain-stylesheets.html
 - Kleinere Layoutänderungen in diversen Artikeln
-- Logo Verlinkung klimaneutraler Versand im Footer unter box-4.html
+- Logo Verlinkung klimaneutraler Versand im Footer unter https://github.com/hhaida-htconnect/pvc-welt.de/blob/master/easy-template-360/footer/box-4.html
 - Layout Optimierungen unter https://github.com/hhaida-htconnect/pvc-welt.de/blob/master/easy-template-360/footer/html-plain-ihk-logo-mitglied-haendlerbund.html
